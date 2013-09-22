@@ -32,6 +32,14 @@ input:focus {
   box-shadow: 0 0 8px rgba(82, 168, 236, 0.6);
   outline: 0 none;
 }
+input.error {
+  border-color: #B94A48;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+}
+input.error:focus {
+  border-color: #953B39;
+  box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 6px #D59392;
+}
 select {
   font-family: Arial;
   font-size: 12px;
